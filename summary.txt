@@ -1,0 +1,9 @@
+I have used Transposition method within the linear search function, when the target element is found, we check if it is located at an index greater than zero.
+If it is, we swap the found element with its immediate predecessor.
+This transposition step improves the average case performance of linear search by moving the recently found element closer 
+to the beginning of the array, potentially reducing the number of iterations required for subsequent searches.
+By incorporating the transposition optimization, we can expect an improvement in the running time of linear search, 
+especially when the target element is located closer to the beginning of the array.
+It's important to note that the actual improvement may vary depending on the input data and the specific distribution of the target elements.
+On comparing LINEAR SEARCH and INTERPOLATION SEARCH I found that linear search is faster if the user enters non-sorted array. This is because interpolation 
+can only be performed in sorted arrays and so sorting function has to be performed first.
